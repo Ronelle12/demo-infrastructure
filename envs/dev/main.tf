@@ -7,7 +7,7 @@ terraform {
     bucket         = "terraform2-state"
     key            = "dev/terraform.tfstate"
     region         = "eu-west-1"
-    dynamodb_table = "terraform-locks"
+    dynamodb_table = "s3-lock-mech"
   }
 }
 
